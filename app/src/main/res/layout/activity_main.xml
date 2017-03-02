@@ -87,43 +87,50 @@
             <TextView
                 android:id="@+id/possessionA"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="50%" />
 
             <TextView
                 android:id="@+id/shotsA"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/foulsA"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/cornersA"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/offsidesA"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/yellowCardsA"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/redCardsA"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
         </LinearLayout>
@@ -180,37 +187,44 @@
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="Possession" />
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="Shots" />
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="Fouls" />
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="Corners" />
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="Offsides" />
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="Yellow Cards" />
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="Red Cards" />
 
         </LinearLayout>
@@ -267,43 +281,50 @@
             <TextView
                 android:id="@+id/possessionB"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="50%" />
 
             <TextView
                 android:id="@+id/shotsB"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/foulsB"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/cornersB"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/offsidesB"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/yellowCardsB"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/redCardsB"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
         </LinearLayout>
