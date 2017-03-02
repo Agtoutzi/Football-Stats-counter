@@ -159,6 +159,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:onClick="redCardA"
                 android:text="+" />
 
         </LinearLayout>
@@ -250,6 +251,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:onClick="redCardB"
                 android:text="+" />
 
         </LinearLayout>
