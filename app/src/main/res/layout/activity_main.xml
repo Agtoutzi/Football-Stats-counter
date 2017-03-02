@@ -129,6 +129,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:onClick="shotA"
                 android:text="+" />
 
             <Button
@@ -215,6 +216,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:onClick="shotB"
                 android:text="+" />
 
             <Button
