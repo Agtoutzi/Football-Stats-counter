@@ -44,17 +44,32 @@
         android:layout_below="@id/layout1"
         android:orientation="horizontal">
 
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="goalTeamA"
             android:text="GOAL!!!" />
 
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="goalTeamB"
             android:text="GOAL!!!" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
 
     </LinearLayout>
 
@@ -66,50 +81,58 @@
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
                 android:id="@+id/possessionA"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="50%" />
 
             <TextView
                 android:id="@+id/shotsA"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/foulsA"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/cornersA"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/offsidesA"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/yellowCardsA"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/redCardsA"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
         </LinearLayout>
@@ -165,44 +188,52 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="3"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="Possession" />
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="Shots" />
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="Fouls" />
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="Corners" />
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="Offsides" />
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="Yellow Cards" />
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="Red Cards" />
 
         </LinearLayout>
@@ -257,7 +288,8 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:gravity="right"
             android:orientation="vertical">
@@ -265,43 +297,50 @@
             <TextView
                 android:id="@+id/possessionB"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="50%" />
 
             <TextView
                 android:id="@+id/shotsB"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/foulsB"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/cornersB"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/offsidesB"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/yellowCardsB"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
             <TextView
                 android:id="@+id/redCardsB"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
                 android:text="0" />
 
         </LinearLayout>
