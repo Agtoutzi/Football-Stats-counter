@@ -266,7 +266,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="reset stats"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="reset" />
+        android:id="@+id/button" />
 </RelativeLayout>
