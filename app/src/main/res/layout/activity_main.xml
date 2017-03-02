@@ -313,6 +313,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:onClick="resetStats"
         android:text="reset stats" />
 
 </RelativeLayout>

@@ -107,6 +107,38 @@ public class MainActivity extends AppCompatActivity {
         display(26);
     }
 
+    public void resetStats(View v){
+        scoreA=0;
+        scoreB=0;
+        possession=50;
+        shotsA=0;
+        shotsB=0;
+        foulsA=0;
+        foulsB=0;
+        cornersA=0;
+        cornersB=0;
+        offsidesA=0;
+        offsidesB=0;
+        yellowCardsA=0;
+        yellowCardsB=0;
+        redCardsA=0;
+        redCardsB=0;
+        display(1);
+        display(2);
+        display(11);
+        display(21);
+        display(12);
+        display(22);
+        display(13);
+        display(23);
+        display(14);
+        display(24);
+        display(15);
+        display(25);
+        display(16);
+        display(26);
+    }
+
     public void display(int code){
         switch (code){
             case 1:
