@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     int foulsA=0,foulsB=0;
     int cornersA=0,cornersB=0;
     int offsidesA=0,offsidesB=0;
+    int yellowCardsA=0,yellowCardsB=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,6 +86,16 @@ public class MainActivity extends AppCompatActivity {
         display(24);
     }
 
+    public void yellowCardA(View v){
+        yellowCardsA++;
+        display(15);
+    }
+
+    public void yellowCardB(View v){
+        yellowCardsB++;
+        display(25);
+    }
+
     public void display(int code){
         switch (code){
             case 1:
@@ -129,6 +140,15 @@ public class MainActivity extends AppCompatActivity {
                 TextView offsideViewB = (TextView) findViewById(R.id.offsidesB);
                 offsideViewB.setText(String.valueOf(offsidesB));
                 break;
+            case 15:
+                TextView yellowCardViewA = (TextView) findViewById(R.id.yellowCardsA);
+                yellowCardViewA.setText(String.valueOf(yellowCardsA));
+                break;
+            case 25:
+                TextView yellowCardViewB = (TextView) findViewById(R.id.yellowCardsB);
+                yellowCardViewB.setText(String.valueOf(yellowCardsB));
+                break;
+
         }
     }
 }
