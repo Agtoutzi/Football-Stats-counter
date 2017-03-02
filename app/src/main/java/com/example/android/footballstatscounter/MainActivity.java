@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     int possession=50;
     int shotsA=0,shotsB=0;
     int foulsA=0,foulsB=0;
+    int cornersA=0,cornersB=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +64,16 @@ public class MainActivity extends AppCompatActivity {
         display(22);
     }
 
+    public void cornerA(View v){
+        cornersA++;
+        display(13);
+    }
+
+    public void cornerB(View v){
+        cornersB++;
+        display(23);
+    }
+
     public void display(int code){
         switch (code){
             case 1:
@@ -90,6 +101,14 @@ public class MainActivity extends AppCompatActivity {
             case 22:
                 TextView foulViewB = (TextView) findViewById(R.id.foulsB);
                 foulViewB.setText(String.valueOf(foulsB));
+                break;
+            case 13:
+                TextView cornerViewA = (TextView) findViewById(R.id.cornersA);
+                cornerViewA.setText(String.valueOf(cornersA));
+                break;
+            case 23:
+                TextView cornerViewB = (TextView) findViewById(R.id.cornersB);
+                cornerViewB.setText(String.valueOf(cornersB));
                 break;
 
         }
