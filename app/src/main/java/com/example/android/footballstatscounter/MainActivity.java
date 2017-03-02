@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 import static android.R.attr.value;
 import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
+import static com.example.android.footballstatscounter.R.id.foulsB;
 import static com.example.android.footballstatscounter.R.id.score;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     int scoreA=0,scoreB=0;
     int possession=50;
     int shotsA=0,shotsB=0;
+    int foulsA=0,foulsB=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +53,16 @@ public class MainActivity extends AppCompatActivity {
         display(21);
     }
 
+    public void foulA(View v){
+        foulsA++;
+        display(12);
+    }
+
+    public void foulB(View v){
+        foulsB++;
+        display(22);
+    }
+
     public void display(int code){
         switch (code){
             case 1:
@@ -70,6 +82,14 @@ public class MainActivity extends AppCompatActivity {
             case 21:
                 TextView shotViewB = (TextView) findViewById(R.id.shotsB);
                 shotViewB.setText(String.valueOf(shotsB));
+                break;
+            case 12:
+                TextView foulViewA = (TextView) findViewById(R.id.foulsA);
+                foulViewA.setText(String.valueOf(foulsA));
+                break;
+            case 22:
+                TextView foulViewB = (TextView) findViewById(R.id.foulsB);
+                foulViewB.setText(String.valueOf(foulsB));
                 break;
 
         }
