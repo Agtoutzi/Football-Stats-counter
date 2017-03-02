@@ -22,20 +22,22 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:textColor="#1e88e5"
+            android:gravity="center"
+            android:textColor="#2196f3"
             android:textStyle="bold"
             android:textSize="30sp"
-            android:text="Team A" />
+            android:text="Team A"
+            android:id="@+id/textView2" />
 
         <TextView
             android:id="@+id/score"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_weight="1"
             android:textStyle="bold"
             android:textSize="40sp"
             android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
             android:text="0 - 0" />
 
         <TextView
@@ -44,8 +46,8 @@
             android:layout_weight="1"
             android:textStyle="bold"
             android:textSize="30sp"
-            android:gravity="center_horizontal"
-            android:textColor="#e53935"
+            android:gravity="center"
+            android:textColor="#f44336"
             android:text="Team B" />
 
     </LinearLayout>
@@ -65,7 +67,7 @@
 
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:onClick="goalTeamA"
             android:text="GOAL!!!" />
 
@@ -76,7 +78,7 @@
 
         <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:onClick="goalTeamB"
             android:text="GOAL!!!" />
 
@@ -213,7 +215,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="Possession" />
+                android:text="Possession"
+                android:id="@+id/textView" />
 
             <TextView
                 android:layout_width="wrap_content"
