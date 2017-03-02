@@ -23,32 +23,31 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:textColor="#2196f3"
-            android:textStyle="bold"
-            android:textSize="30sp"
             android:text="Team A"
-            android:id="@+id/textView2" />
+            android:textColor="#2196f3"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/score"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_weight="1"
-            android:textStyle="bold"
-            android:textSize="40sp"
             android:gravity="center_horizontal"
+            android:text="0 - 0"
             android:textColor="@android:color/white"
-            android:text="0 - 0" />
+            android:textSize="40sp"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textStyle="bold"
-            android:textSize="30sp"
             android:gravity="center"
+            android:text="Team B"
             android:textColor="#f44336"
-            android:text="Team B" />
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -108,49 +107,56 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="50%" />
+                android:text="50%"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/shotsA"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/foulsA"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/cornersA"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/offsidesA"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/yellowCardsA"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/redCardsA"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/white" />
 
         </LinearLayout>
 
@@ -216,43 +222,49 @@
                 android:layout_height="40dp"
                 android:gravity="center"
                 android:text="Possession"
-                android:id="@+id/textView" />
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="Shots" />
+                android:text="Shots"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="Fouls" />
+                android:text="Fouls"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="Corners" />
+                android:text="Corners"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="Offsides" />
+                android:text="Offsides"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="Yellow Cards" />
+                android:text="Yellow Cards"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="Red Cards" />
+                android:text="Red Cards"
+                android:textColor="@android:color/white" />
 
         </LinearLayout>
 
@@ -317,49 +329,56 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="50%" />
+                android:text="50%"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/shotsB"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/foulsB"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/cornersB"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/offsidesB"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/yellowCardsB"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/white" />
 
             <TextView
                 android:id="@+id/redCardsB"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="0" />
+                android:text="0"
+                android:textColor="@android:color/white" />
 
         </LinearLayout>
     </LinearLayout>
