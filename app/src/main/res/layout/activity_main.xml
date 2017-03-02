@@ -8,31 +8,40 @@
     tools:context="com.example.android.footballstatscounter.MainActivity">
 
     <LinearLayout
+        android:id="@+id/layout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Team A" />
+			android:text="Team A"
+            android:gravity="center_horizontal" />
 
         <TextView
             android:id="@+id/score"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="0 - 0" />
+			android:text="0 - 0"
+            android:gravity="center_horizontal" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="Team B" />
+			android:text="Team B"
+            android:layout_gravity="center_horizontal" />
 
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/layout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/layout1"
         android:orientation="horizontal">
 
         <Button
@@ -48,8 +57,10 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/layout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/layout2"
         android:orientation="horizontal">
 
         <LinearLayout
@@ -58,36 +69,43 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/possessionA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="50%" />
 
             <TextView
+                android:id="@+id/shotsA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/foulsA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/cornersA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/offsidesA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/yellowCardsA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/redCardsA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
@@ -97,7 +115,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="left">
 
             <Button
                 android:layout_width="40dp"
@@ -139,7 +158,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -223,39 +243,47 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="right">
 
             <TextView
+                android:id="@+id/possessionB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="50%" />
 
             <TextView
+                android:id="@+id/shotsB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/foulsB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/cornersB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/offsidesB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/yellowCardsB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/redCardsB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
@@ -270,4 +298,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/button" />
+
 </RelativeLayout>
