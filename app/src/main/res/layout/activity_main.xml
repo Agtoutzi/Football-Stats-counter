@@ -67,9 +67,10 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:background="#2196f3"
+            android:backgroundTint="#2196f3"
             android:fontFamily="monospace"
             android:onClick="goalTeamA"
+            android:padding="0dp"
             android:text="GOAL!!!"
             android:textStyle="bold" />
 
@@ -81,9 +82,10 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="40dp"
-            android:background="#f44336"
+            android:backgroundTint="#f44336"
             android:fontFamily="monospace"
             android:onClick="goalTeamB"
+            android:padding="0dp"
             android:text="GOAL!!!"
             android:textStyle="bold" />
 
@@ -183,6 +185,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:backgroundTint="#7cb342"
                 android:gravity="center"
                 android:onClick="gainPossessionA"
                 android:padding="0dp"
@@ -193,6 +196,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:backgroundTint="#7cb342"
                 android:gravity="center"
                 android:onClick="shotA"
                 android:padding="0dp"
@@ -203,6 +207,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:backgroundTint="#7cb342"
                 android:gravity="center"
                 android:onClick="foulA"
                 android:padding="0dp"
@@ -213,6 +218,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:backgroundTint="#7cb342"
                 android:gravity="center"
                 android:onClick="cornerA"
                 android:padding="0dp"
@@ -223,6 +229,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:backgroundTint="#7cb342"
                 android:gravity="center"
                 android:onClick="offsideA"
                 android:padding="0dp"
@@ -233,6 +240,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:backgroundTint="#ffea00"
                 android:gravity="center"
                 android:onClick="yellowCardA"
                 android:padding="0dp"
@@ -243,6 +251,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:backgroundTint="#d50000"
                 android:gravity="center"
                 android:onClick="redCardA"
                 android:padding="0dp"
@@ -326,6 +335,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:backgroundTint="#7cb342"
                 android:gravity="center"
                 android:onClick="gainPossessionB"
                 android:padding="0dp"
@@ -336,6 +346,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:backgroundTint="#7cb342"
                 android:gravity="center"
                 android:onClick="shotB"
                 android:padding="0dp"
@@ -346,6 +357,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:backgroundTint="#7cb342"
                 android:gravity="center"
                 android:onClick="foulB"
                 android:padding="0dp"
@@ -356,6 +368,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:backgroundTint="#7cb342"
                 android:gravity="center"
                 android:onClick="cornerB"
                 android:padding="0dp"
@@ -366,6 +379,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:backgroundTint="#7cb342"
                 android:gravity="center"
                 android:onClick="offsideB"
                 android:padding="0dp"
@@ -376,6 +390,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:backgroundTint="#ffea00"
                 android:gravity="center"
                 android:onClick="yellowCardB"
                 android:padding="0dp"
@@ -386,6 +401,7 @@
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:backgroundTint="#d50000"
                 android:gravity="center"
                 android:onClick="redCardB"
                 android:padding="0dp"
