@@ -51,36 +51,43 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/possessionA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="50%" />
 
             <TextView
+                android:id="@+id/shotsA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/foulsA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/cornersA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/offsidesA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/yellowCardsA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/redCardsA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
@@ -149,36 +156,43 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/possessionB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="50%" />
 
             <TextView
+                android:id="@+id/shotsB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/foulsB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/cornersB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/offsidesB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/yellowCardsB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
 
             <TextView
+                android:id="@+id/redCardsB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0" />
